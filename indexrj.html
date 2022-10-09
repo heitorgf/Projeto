@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <script src="https://cdn.croct.io/js/v1/lib/plug.js?appId=00000000-0000-0000-0000-000000000000">
+
+    </script>
+    <script>croct.plug();</script>
+    <script>
+        function cidade() { croct.evaluator.evaluate("context's cities include location's city").then(cities => save("location's city")); }
+        function checkCity(cities) {
+            if ("location's city" == "São Paulo") {
+                window.location.href = "./index.html";
+            } else if ("location's city" == "Belo Horizonte") {
+                window.location.href = "./indexbh.html";
+            }
+            else if ("location's city" == "Rio de Janeiro") {
+                window.location.href = "./indexrj.html";
+            } else {
+                window.location.href = "./indexrj.html";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <style>
+        body {
+            background-image: url('./imagens/fundo_contabilizei_rj.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <div class="logo">
+                        <li> <a href="./indexrj.html">
+                                <img data-v-bb0415aa="" src="./imagens/logo.svg" intrinsicsize="90x40"
+                                    alt="Contabilizei" title="logo-contabilizei-contabilidade"
+                                    onerror="this.classList.add('loading')" onload="this.classList.remove('loading')"
+                                    class="logo-contabilizei" width="180px" height="26px">
+                            </a></li>
+                        <li><a href="./indexrj.html">SOLUÇÕES</a>
+
+                        </li>
+                        <li><a href="">CIDADES</a></li>
+                        <li><a href="">COMO FUNCIONA?</a></li>
+                        <li><a href="">PLANOS</a></li>
+                        <li><a href="">RECURSOS</a></li>
+                    </div>
+                    <div class="leftmenu">
+                        <ul>
+                            <div class="login e abrir">
+                                <li><a href="">LIGIN</a></li>
+                                <li><a href="">ABRA SUA EMPRESA</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <div class="col-100">
+        <div class="content texto-destaque">
+            <h1>Junte-se a 5 mil empreas do Rio de Janeiro e venha para a Contabilizei<strong>.</strong>
+            </h1>
+            <p>Contrate nossa contabilidade por 12 meses e abra sua empresa em até 30 dias com todos os custos de
+                abertura grátis.</p>
+        </div>
+
+    </div>
+    <div class="col-3 bloco-texto">
+
+        <h3><b>Abertura de Empresa</b></h3>
+        <p> Empresa 100% regularizadas com mínimo de emposto
+            Cuidamos de todo o processo e te orientamos quanto à documentação
+        </p>
+    </div>
+    <div class="col-3 bloco-texto">
+
+        <h3><b>Troca de Contador</b></h3>
+        <p>
+            Contabilidade completa como maior escritório do Brasil Planos com atendimento via Whatsapp,
+            telefone, até as às 22h
+        </p>
+    </div>
+    <div class="col-3 bloco-texto">
+
+        <h3><b>Assessor Personalizado</b></h3>
+        <p> Muito mais que contabilidade.
+            Conte com um expert especializado em seu segmento para ajudarr a cuidar do seu negócio
+        </p>
+
+    </div>
+    </div>
+    </div>
+    <div class="col-100 bloco-imagens-texto">
+        <div class="content" style="margin-left: 24%; float: left;">
+
+
+            <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+            <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+            <script type="text/javascript"
+                src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+            <script type="text/javascript" src="./js/main.js"></script>
+            <div>
+
+            </div>
+</body>
+
+</html>
